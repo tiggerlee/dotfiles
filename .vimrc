@@ -43,3 +43,6 @@ imap <F3> <C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR>
 
 " Show editing mode
 set showmode
+
+" Set leader key
+let mapleader = ","

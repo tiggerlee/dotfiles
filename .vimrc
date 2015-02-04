@@ -9,10 +9,9 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
-
 Plugin 'klen/python-mode'
-
 Plugin 'tpope/vim-rails'
+Plugin 'vimwiki/vimwiki'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -69,4 +68,8 @@ set showmode
 let mapleader = ","
 
 colorscheme evening
+
+" make vimwiki use markdown default
+ let g:vimwiki_list = [{'path': '~/my_site/',
+                        \ 'syntax': 'markdown', 'ext': '.md'}]
 

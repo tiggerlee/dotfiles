@@ -70,6 +70,6 @@ let mapleader = ","
 colorscheme evening
 
 " make vimwiki use markdown default
- let g:vimwiki_list = [{'path': '~/my_site/',
+let g:vimwiki_list = [{'path': '~/my_site/',
                         \ 'syntax': 'markdown', 'ext': '.md'}]
 

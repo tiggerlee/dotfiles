@@ -9,9 +9,9 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
-Plugin 'klen/python-mode'
-Plugin 'tpope/vim-rails'
 
+" python mode for write python
+Plugin 'klen/python-mode'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -30,6 +30,7 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 syntax on
+syntax enable
 
 " display line numbers
 set number
@@ -38,13 +39,12 @@ set incsearch
 " Ignore case when searching.
 set ignorecase
 " Automatically indent when adding a curly bracket, etc.
-set smartindent
-" Tabs should be converted to a group of 4 spaces.
-" This is the official Python convention
-set shiftwidth=4
-set tabstop=4
+
+" set indent
 set expandtab
-set smarttab
+set shiftwidth=2
+set softtabstop=2
+set smartindent
 " Use UTF-8.
 set encoding=utf-8
 " Status line
@@ -67,4 +67,3 @@ set showmode
 let mapleader = ","
 
 colorscheme evening
-

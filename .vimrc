@@ -3,6 +3,8 @@ set nocompatible              " be iMproved, required
 syntax on
 syntax enable
 
+filetype plugin indent on
+
 " display line numbers
 set number
 " Search as you type.

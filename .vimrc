@@ -5,6 +5,8 @@ syntax enable
 
 filetype plugin indent on
 
+" Wraps text at the end of a word. This is what prevents a word from being split in two.
+set linebreak
 " display line numbers
 set number
 " Search as you type.

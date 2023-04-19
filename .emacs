@@ -11,7 +11,7 @@
 
 (set-register ?i '(file . "~/Documents/personal/myorg/index.org"))
 (set-register ?r '(file . "~/Documents/personal/myorg/notes/did-you-do-your-best.org"))
-(set-register ?w '(file . "~/Documents/personal/myorg/work.org"))
+(set-register ?t '(file . "~/Documents/personal/myorg/todo.org"))
 
 (add-hook 'text-mode-hook 'visual-line-mode)
 

@@ -1,0 +1,31 @@
+;;;; Emacs Bookmark Format Version 1;;;; -*- coding: utf-8-emacs; mode: lisp-data -*-
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("personal.org"
+ (filename . "~/Documents/personal/myorg/personal.org")
+ (front-context-string . "\n*** TODO Read T")
+ (rear-context-string . "2-20 Wed 13:47]\n")
+ (position . 373)
+ (last-modified 25986 33039 739046 570000))
+("org-capture-last-stored"
+ (filename . "~/Documents/personal/myorg/capture.org")
+ (front-context-string . "** TODO reread s")
+ (rear-context-string)
+ (position . 9)
+ (last-modified 25985 3294 277241 428000))
+("org-mode-document"
+ (front-context-string . "Introduction::  ")
+ (rear-context-string . "l.”\n\n* Menu:\n\n* ")
+ (position . 1627)
+ (last-modified 25978 25302 138311 727000)
+ (filename . "/home/linuxbrew/.linuxbrew/Cellar/emacs/29.1_1/share/info/emacs/org")
+ (info-node . "Top")
+ (handler . Info-bookmark-jump))
+("plan.org"
+ (filename . "~/Documents/personal/myorg/teachyourselfcs/plan.org")
+ (front-context-string . "#+STARTUP: conte")
+ (rear-context-string)
+ (position . 1)
+ (last-modified 25968 15796 320265 969000))
+)

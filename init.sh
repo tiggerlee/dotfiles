@@ -15,15 +15,15 @@ for item in "$current_dir"/*; do
     # 获取文件名或文件夹名
     base_name=$(basename "$item")
 
-    # 检查是否是文件或文件夹，并且不是当前脚本文件
+    # 检查是否是文件或文件夹，并且不是当前脚本文件，并且不包含.git
     if [ -f "$item" ] || [ -d "$item" ]; then
-        # 排除当前脚本文件
-        if [ "$item" != "$current_dir/$(basename "$0")" ]; then
+        if [ "$item" != "$current_dir/$(basename "$0")" ] && ! [[ "$base_name" == *".git"* ]]; then
             # 创建软链接
             ln -s "$item" "$home_dir/$base_name"
-            echo "Created symlink for $base_name"
+            echo "Created symlink for $item $home/$base_name"
         fi
     fi
 done
 
 echo "Symlinks created successfully."
+

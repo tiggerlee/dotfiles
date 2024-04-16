@@ -6,7 +6,7 @@
 ;;; bind key for comment a line
 (global-set-key (kbd "C-x ;") 'comment-line)
 
-(set-register ?i '(file . "~/Documents/personal/myorg/index.org"))
+(set-register ?i '(file . "~/EverythingOfMine/myorg.tiggerlee.com/index.org"))
 ;;; use ibuffer replace default buffer list
 (global-set-key [remap list-buffers] 'ibuffer)
 ;;; use M-o replace C-x o

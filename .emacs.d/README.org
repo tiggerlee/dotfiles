@@ -1,1 +1,3 @@
 * An emacs configuration that I understand
+
+Clone this project in home folder and run emacs

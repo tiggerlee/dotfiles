@@ -1,6 +1,6 @@
 (require 'denote)
 
-(setq denote-directory (expand-file-name "~/Documents/personal/myorg/notes/"))
+(setq denote-directory (expand-file-name "~/EverythingOfMine/myorg.tiggerlee.com/notes/"))
 
 ;; Denote DOES NOT define any key bindings.  This is for the user to
 ;; decide.  For example:

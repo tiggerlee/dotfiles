@@ -18,6 +18,7 @@
      racket-mode
      ;;; note taking
      denote
+     cal-china-x
      ))
   (mapc 'load (directory-files custom-dir 't "^[^#].*el$")))
 (custom-set-variables
@@ -27,7 +28,7 @@
  ;; If there is more than one, they won't work right.
  '(org-agenda-files '("~/EverythingOfMine/myorg.tiggerlee.com/doit.org"))
  '(package-selected-packages
-   '(denote rainbow-delimiters paredit expand-region magit company zenburn-theme helm)))
+   '(cal-china-x denote rainbow-delimiters paredit expand-region magit company zenburn-theme helm)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
